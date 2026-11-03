@@ -1,0 +1,20 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0.0",
+    "FriendlyName": "CV Camera",
+    "Description": "Spawnable cameras that capture RGB, depth, surface normals, optical flow and segmentation masks. Extracted from UnrealCV, without the TCP server.",
+    "Category": "Science",
+    "CreatedBy": "Extracted from UnrealCV (Weichao Qiu and contributors)",
+    "CreatedByURL": "http://unrealcv.org",
+    "EnabledByDefault": true,
+    "CanContainContent": true,
+    "IsBetaVersion": true,
+    "Modules": [
+        {
+            "Name": "CVCamera",
+            "Type": "Runtime",
+            "LoadingPhase": "PreDefault"
+        }
+    ]
+}
